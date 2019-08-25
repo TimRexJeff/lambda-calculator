@@ -1,8 +1,6 @@
 import React from "react";
-
-//import any components needed
-
-//Import your array data to from the provided data file
+import SpecialButton from 'src\components\ButtonComponents\SpecialButtons\SpecialButton.js'
+import { specials } from 'src\data.js'
 
 const Specials = () => {
   // STEP 2 - add the imported data to state
