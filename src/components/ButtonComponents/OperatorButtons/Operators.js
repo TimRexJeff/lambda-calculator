@@ -1,9 +1,10 @@
-import React from "react";
+import React, { useState } from "react";
 import OperatorButton from 'src\components\ButtonComponents\OperatorButtons\OperatorButton.js'
 import { operators } from 'src\data.js'
 
 const Operators = () => {
-  // STEP 2 - add the imported data to state
+  // ***DONE*** STEP 2 - add the imported data to state
+  const [operatorState, setOperatorState] = useState(operators)
   return (
     <div>
       {/* STEP 3 - Use .map() to iterate over your array data and return a button
